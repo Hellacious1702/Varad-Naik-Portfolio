@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter Display', sans-serif;
+}
+
+.Footer-Wrapper{
+    color: white;
+    background: #131315;
+    margin: 8px 6% 2%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2em;
+    border-radius: 50px;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.Footer-Copy-Wrapper {
+    color: #8A8A93;
+}

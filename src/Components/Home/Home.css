@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter Display', sans-serif;
+}
+
+/* CSS for Section1 of Home Starts*/
+
+.Section1-Wrapper{
+    display: grid;
+    margin: 0 6%;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 8px;
+}
+
+.Section1-Left , .Section1-Right{
+    background-color: #131315;
+    padding: 3em;
+    color: #ffffff;
+    border-radius: 50px;
+}
+
+.Section1-Left img{
+    width: 7em;
+    border-radius: 100px;
+}
+
+.Section1-Left h1{
+    font-size: 54px;
+    font-weight: 500;
+    margin-top: 1em;
+}
+
+.Section1-Left h1 span{
+    color: #8A8A93;
+}
+
+.Section1-Right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
+
+.Section1-Right img{
+    height: 5em;
+}
+
+.Section1-Right h1{
+    font-size: 45px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.Section1-Right button{
+    padding: 1em 1.5em;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    background: #FF5E1A;
+    color: #ffffff;
+    border-radius: 50px;
+}
+
+/* CSS for Section1 of Home Ends*/
+
+/* CSS for Section2 of Home Starts*/
+
+.Section2-Wrapper{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin: 8px 6%;
+    grid-gap: 8px;
+}
+
+.Section2-Menu-wrapper{
+    background: #131315;
+    padding: 1em;
+    border-radius: 50px;
+}
+
+.Section2-Wrapper p{
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+/* CSS for Section2 of Home Ends*/
+
+/* CSS for Section3 of Home Starts*/
+
+.Section3-Wrapper{
+    display: grid;
+    margin: 0 6%;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 8px;
+}
+
+.Section3-Left , .Section3-Right{
+    background-color: #131315;
+    padding: 3em;
+    color: #ffffff;
+    border-radius: 50px;
+}
+
+.Section3-Left img{
+    width: 5em;
+    border-radius: 100px;
+}
+
+.Section3-Left h1{
+    font-size: 54px;
+    font-weight: 500;
+    margin-top: 1em;
+}
+
+.Section3-Left h1 span{
+    color: #8A8A93;
+}
+
+.Section3-Right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
+
+.Section3-Right h1{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.Section3-Right h1 span{
+    color: #8A8A93;
+}
+
+/* CSS for Section3 of Home End*/
+
+/* CSS for Section4 of Home Starts*/
+
+.Section4-Wrapper{
+    margin: 0 6%;
+    margin-top: 8px;
+    background: #131315;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 1em;
+}
+
+.Section4-Header{
+    padding: 2em;
+}
+
+.Section4-Header{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    grid-gap: 1em;
+}
+
+.Section4-Image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 34px;
+}
+
+.Section4-Header-Title h1{
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.Section4-Header-Title p{
+    font-size: 1.3em;
+    color: #8A8A93;
+}
+
+.Section4-Header-Decription p{
+    font-size: 1.2em;
+}
+
+.Section4-Header-Button{
+    text-align: right;
+}
+
+.Section4-Header-Button button{
+    outline: none;
+    border: none;
+    font-size: 5em;
+    background: transparent;
+    color: #ffffff;
+    transform: rotate(-45deg);
+    cursor: pointer;
+    transition: 1s ease-in-out;
+    border-radius: 100px;
+}
+
+/* CSS for Section4 of Home End*/
+
+/* CSS for Section5 of Home Starts*/
+
+.Section5-Wrapper{
+    margin: 0 6%;
+    margin-top: 8px;
+    background: #131315;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 1em;
+}
+
+.Section5-Header{
+    padding: 2em;
+}
+
+.Section5-Header{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    grid-gap: 1em;
+}
+
+.Section5-Image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 34px;
+}
+
+.Section5-Header-Title h1{
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.Section5-Header-Title p{
+    font-size: 1.3em;
+    color: #8A8A93;
+}
+
+.Section5-Header-Decription p{
+    font-size: 1.2em;
+}
+
+.Section5-Header-Button{
+    text-align: right;
+}
+
+.Section5-Header-Button button{
+    outline: none;
+    border: none;
+    font-size: 5em;
+    background: transparent;
+    color: #ffffff;
+    transform: rotate(-45deg);
+    cursor: pointer;
+    transition: 1s ease-in-out;
+    border-radius: 100px;
+}
+
+/* CSS for Section5 of Home End*/
+
+/* CSS for Section6 of Home Starts*/
+
+.Section6-Wrapper{
+    padding: 8px 6% 0;
+}
+
+.Section6-Content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+    border-radius: 50px;
+    background: #131315;
+    padding: 3em;
+    color: #ffffff;
+}
+
+.Section6-Content img{
+    height: 5em;
+}
+
+.Section6-Content h1{
+    font-size: 45px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.Section6-Content button{
+    padding: 1em 1.5em;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    background: #FF5E1A;
+    color: #ffffff;
+    border-radius: 50px;
+}
+
+/* CSS for Section6 of Home Ends*/
