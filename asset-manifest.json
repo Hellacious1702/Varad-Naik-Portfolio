@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Varad-Naik-Portfolio/static/css/main.6c01bb10.css",
+    "main.js": "/Varad-Naik-Portfolio/static/js/main.c14c9ce4.js",
+    "static/js/787.5f1b93b5.chunk.js": "/Varad-Naik-Portfolio/static/js/787.5f1b93b5.chunk.js",
+    "static/media/Section1-Image.jpg": "/Varad-Naik-Portfolio/static/media/Section1-Image.723b45c1e4a9f4c3f271.jpg",
+    "static/media/Section5-Image.png": "/Varad-Naik-Portfolio/static/media/Section5-Image.bc25a6c8eb7dbac2abce.png",
+    "static/media/Section4-Image.png": "/Varad-Naik-Portfolio/static/media/Section4-Image.295b1af5be2e9d667f82.png",
+    "index.html": "/Varad-Naik-Portfolio/index.html",
+    "main.6c01bb10.css.map": "/Varad-Naik-Portfolio/static/css/main.6c01bb10.css.map",
+    "main.c14c9ce4.js.map": "/Varad-Naik-Portfolio/static/js/main.c14c9ce4.js.map",
+    "787.5f1b93b5.chunk.js.map": "/Varad-Naik-Portfolio/static/js/787.5f1b93b5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c01bb10.css",
+    "static/js/main.c14c9ce4.js"
+  ]
+}
