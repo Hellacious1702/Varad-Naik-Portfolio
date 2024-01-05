@@ -23,3 +23,95 @@
     color: white;
     margin-inline: 2em;
 }
+
+.Nav-Menus-Mobile{
+    display: none;
+}
+
+.Nav-Menu-Wrapper-Mobile{
+    display: none;
+}
+
+@media (400px <= width <= 1000px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Inter Display', sans-serif;
+    }
+
+    .Nav-Wrapper{
+        color: white;
+        background: #131315;
+        margin: 6% 2%;
+        margin-bottom: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em 2em;
+        border-radius: 50px;
+        font-size: 1.2em;
+        font-weight: 500;
+    }
+    
+    #Mobile-Nav-notActive{
+        display: none;
+    }
+
+    #Mobile-Nav-Active{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        gap: .5em;
+        background: #131315;
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        padding: 5em 4em;
+        overflow: hidden;
+    }
+
+    .Nav-Menu-Wrapper-Mobile{
+        display: block;
+    }
+
+    .Nav-Menus-Mobile a{
+        text-decoration: none;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        font-size: 4em;
+    }
+
+    .Nav-Menu-Wrapper-Mobile img{
+        height: 1.8em;
+    }
+
+    .Nav-Menus-Wrapper a{
+        display: none;
+    }
+
+    .Nav-Menu-Wrapper-Mobile button{
+        background: transparent;
+        border: none;
+        outline: none;
+    }
+
+    .Nav-Mobile-Menu-Button{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .Nav-Mobile-Menu-Button button{
+        background: transparent;
+        border: none;
+        outline: none;
+    }
+
+    .Nav-Mobile-Menu-Button button img{
+        height: 3em;
+    }
+}
